@@ -1,0 +1,171 @@
+body {
+    background-color: rgb(235, 225, 225);
+    color: rgb(19, 15, 15);
+
+    font-size: 18px;
+    font-weight: normal;
+    /*font-family: 'Times New Roman', Times, serif;*/
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: gray;
+}
+
+.asf {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(14, 9, 9, 0.25);
+}
+
+.hh {
+    display: flex;
+    margin-left: 40px;
+}
+
+@media (max-width: 700px) {
+    .hh {
+        text-align: center;
+        display: block;
+    }
+}
+
+.hh h3 {
+    margin-bottom: 10px;
+}
+
+.hgol p {
+    color: #86898f;
+    margin: 20px;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+
+.container {
+   max-width: 750px;
+   margin: auto;
+   padding-top: 30px;
+}
+
+/*.social {*/
+   /* background: gold;
+    padding: 15px;
+    border: 5px solid brown;
+    margin: 20px;*/
+/*}*/
+
+.bip-yellow {
+    background: #fff9dc;
+}
+
+.bip-green {
+    background: #e5ffe7;
+}
+
+.bip-red {
+    background: #ffe5e5;
+}
+
+.era {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.lec {
+    padding: 0 20px;
+}
+
+.lec li {
+    color: 86898f;
+    margin-bottom: 10px;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3) {
+    color: #86898f;
+}
+
+.las {
+    list-style: square;
+    padding: 0;
+}
+
+.las li {
+   margin-bottom: 10px;
+   padding: 5px; 
+   border-bottom: 1px solid #ccc;
+}
+
+.cond h3 {
+    text-align: center;
+}
+
+.fgor label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.fgor input, 
+.fgor textarea {
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    background: whitesmoke;
+    border-bottom: 1px solid rgb(49, 47, 47);
+    border-right: 1px solid rgb(49, 47, 47);
+    color: black;
+    padding: 15PX 0 10PX;
+    outline: none;
+    font-family: inherit;
+}
+
+.roq {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.roq .fgor {
+    width: 50%;
+    margin-right: 20px;
+
+}
+
+.btn {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
